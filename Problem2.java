@@ -21,12 +21,13 @@ public class Problem2 {
 class S_2 {
     // Insert your function GibbsSampler here, along with any subroutines you need
     public static List<String> GibbsSampler(List<String> dna, int k, int t, int N) {
-        int randomStarts = 0;
-        if ((dna.get(0).compareTo("CGCCCCTCTCGGGGGTGTTCAGTAAACGGCCA") == 0) ||
+        int randomStarts = 20;
+        /*if ((dna.get(0).compareTo("CGCCCCTCTCGGGGGTGTTCAGTAAACGGCCA") == 0) ||
                 (dna.get(0).compareTo("AATTGGCACATCATTATCGATAACGATTCGCCGCATTGCC") == 0) ||
                 (dna.get(0).compareTo("GCACATCATTAAACGATTCGCCGCATTGCCTCGATTAACC") == 0)) randomStarts = 1000;
         else
             randomStarts = 20;
+         */
 
         double finalScore = Double.MAX_VALUE;
         ArrayList<String> finalResult = null;
